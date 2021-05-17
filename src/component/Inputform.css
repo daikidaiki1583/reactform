@@ -1,0 +1,29 @@
+.input_wraper{
+    position: relative;
+    outline: none;
+}
+
+input{
+    padding: 16px;
+    width: 200px;
+    font-size: 1.6rem;
+    margin: 8px;    
+
+
+}
+
+.placeholder{
+    color: gray;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left: 24px; 
+    font-size: 1.8rem;
+
+}
+.placeholder.focus{
+    font-size: 1.2rem;
+    top:20px;
+    left: 24px;
+
+}
